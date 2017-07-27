@@ -1,0 +1,25 @@
+<!doctype>
+<html>
+<head>
+<title>Food Library App</title>
+</head>
+<body>
+
+    <header>Food Library App</header>
+    <hr>
+    {{{body}}}
+    <hr>
+    
+    <!-- CSS -->
+    <div class="nav"> 
+    {{! Only show the home link if on detail page}}
+        
+    {{#if foods}} 
+        {{else}}<a href="/">Home</a> | {{/if}}
+        <a href="/about">About</a>
+    </div>
+    
+    <footer>&copy; Dwayne Linde - Spinifex Coding</footer>
+    
+</body>
+</html>

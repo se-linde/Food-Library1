@@ -1,0 +1,29 @@
+{
+  "name": "FoodLibrary",
+  "version": "1.0.0",
+  "description": "Food Library - an app to store food.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/se-linde/ITC230-Advanced-JS.git"
+  },
+  "keywords": [
+    "Javascript"
+  ],
+  "author": "Dwayne Linde",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.9.8"
+  },
+  "bugs": {
+    "url": "https://github.com/se-linde/ITC230-Advanced-JS/issues"
+  },
+  "homepage": "https://github.com/se-linde/ITC230-Advanced-JS#readme"
+}
